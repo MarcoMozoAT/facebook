@@ -1,9 +1,9 @@
 <?php
 class ConexionBD {
     private $servername = "localhost"; // Cambia localhost por tu servidor si es diferente
-    private $username = "tu_usuario";
-    private $password = "tu_contraseña";
-    private $dbname = "nombre_de_tu_base_de_datos";
+    private $username = "root";
+    private $password = "";
+    private $dbname = "facebook";
     public $conn;
 
     // Constructor: se conecta automáticamente cuando se instancia la clase
@@ -11,9 +11,9 @@ class ConexionBD {
         try {
             $this->conn = new PDO("mysql:host=$this->servername;dbname=$this->dbname", $this->username, $this->password);
             $this->conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-            echo "Conexión exitosa";
+            // echo "Conexión exitosa";
         } catch(PDOException $e) {
-            echo "Error de conexión: " . $e->getMessage();
+            // echo "Error de conexión: " . $e->getMessage();
         }
     }
 
