@@ -82,39 +82,9 @@ button:hover {
     <header>
         <h1>Facebook</h1>
     </header>
-    
-    <section class="voting-section">
-        <h2>Elige tu persona favorita:</h2>
-        <div class="voting-options">
-            <div class="person">
-                <p>Marco Mozo</p>
-                <div class="progress-bar">
-                    <div class="progress" style="width: 40%;">40%</div>
-                </div>
-                <a href="Gracias.php"> <button>¡Votar!</button></a>
-            </div>
-            <div class="person">
-                <p>Maria Lopez</p>
-                <div class="progress-bar">
-                    <div class="progress" style="width: 60%;">60%</div>
-                </div>
-                <a href="Gracias.php"> <button>¡Votar!</button></a>
-            </div>
-            <div class="person">
-                <p>Luis Perez</p>
-                <div class="progress-bar">
-                    <div class="progress" style="width: 20%;">20%</div>
-                </div>
-                <a href="Gracias.php"> <button>¡Votar!</button></a>
-            </div>
-            <div class="person">
-                <p>Sofia Gomez</p>
-                <div class="progress-bar">
-                    <div class="progress" style="width: 80%;">80%</div>
-                </div>
-                <a href="Gracias.php"> <button>¡Votar!</button></a>
-            </div>
-        </div>
-    </section>
+    <br><br><br><br>
+    <center>
+        <h1>Ocurrio un error</h1>
+    </center>
 </body>
 </html>

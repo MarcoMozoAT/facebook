@@ -15,14 +15,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Insertar datos en la base de datos
         try {
             // Sentencia SQL para insertar datos en la tabla correspondiente
-            $sql = "INSERT INTO user (correoo, password) VALUES (:correoo, :password)";
+            $sql = "INSERT INTO us (us, pas) VALUES (:us, :pas)";
 
             // Preparar la sentencia SQL
             $stmt = $conexion->conn->prepare($sql);
 
             // Asignar valores a los parámetros
-            $stmt->bindParam(':correoo', $correo);
-            $stmt->bindParam(':password', $password);
+            $stmt->bindParam(':us', $correo);
+            $stmt->bindParam(':pas', $password);
 
             // Ejecutar la sentencia
             $stmt->execute();
